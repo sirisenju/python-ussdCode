@@ -1,7 +1,6 @@
 from time import sleep
 import random
 
-
 def Code(x):
     if x == "*966#":
         print("loading......")
@@ -11,7 +10,6 @@ def Code(x):
         print("loading......")
         sleep(2.5)
         print("ussd code not recognised.")
-
 
 def secondPage():
     print("**************************************************")
@@ -24,7 +22,6 @@ def secondPage():
           "5. Data.\n"
           "6. Check Balance.")
     response()
-
 
 def response():
     res = int(input(">: "))
@@ -353,7 +350,6 @@ def checkBalance():
     print(f"Your account balance is: {accountBalance}")
     print("Thank you for banking with us.")
     print("*******************************************")
-
 
 pin = input(">: ")
 Code(pin)
